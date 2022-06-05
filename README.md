@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  # Decentralized Autonomous Organization
+  # Meteearth Autonomous Organization
 </h1>
 
 The governance hub for Decentraland. Create and vote on proposals that help shape the future of the metaverse.
