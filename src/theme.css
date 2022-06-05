@@ -1,0 +1,137 @@
+body {
+  background: var(--background)
+}
+
+.dcl.navbar.LayoutNavbarContainer {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.dcl.navbar.LayoutNavbarContainer.initial {
+  background-color: var(--background);
+}
+
+.dcl.navbar.LayoutNavbarContainer .dcl.logo{
+  background-image: url(./images/metaearth-logo.jpeg) !important;
+}
+
+.ui.container > .SignIn {
+  position: relative;
+}
+
+.ui.button svg {
+  vertical-align: text-bottom;
+}
+
+.ui.ui.popup,
+.ui.ui.popup.inverted {
+  height: auto;
+}
+
+.ui.ui.popup.inverted {
+  height: auto;
+  background-color: var(--background);
+}
+
+.ui.ui.popup.bottom.inverted::before,
+.ui.ui.popup.top.inverted::before {
+  background: var(--background);
+  box-shadow: 0;
+}
+
+.ui.ui.popup.inverted .content {
+  color: var(--text);
+}
+
+.dg.Link i.icon {
+  font-size: 1em;
+  vertical-align: text-top;
+}
+
+.dcl.field.field {
+  padding-top: 4px;
+}
+
+.dg.Textarea .ui.input textarea,
+.dcl.field.field .ui.input input,
+.dcl.select-field.select-field .ui.search.selection.dropdown {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 6px;
+  padding: 8px 8px 8px;
+}
+
+.dcl.select-field.select-field .ui.dropdown.visible .menu {
+  border-radius: 0 0 6px 6px;
+  margin: 1px 0 0 0;
+  padding: 0 0 8px 0;
+}
+.dcl.select-field.select-field .ui.dropdown.visible.upward .menu {
+  border-radius: 6px 6px 0 0;
+  margin: 0 0 1px 0;
+  padding: 8px 0 0 0;
+}
+
+.dcl.select-field.select-field .ui.dropdown .dropdown.icon {
+  padding: 11px
+}
+
+.dcl.select-field.select-field .ui.search.dropdown > input.search {
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.dcl.field.field.address .dcl.blockie {
+  right: 10px;
+  top: 14px;
+}
+
+.ui.icon.input>i.icon {
+  right: 5px;
+  top: 9px;
+}
+
+.dg.Textarea.error .ui.input textarea,
+.dcl.field.error .ui.input input {
+  border-color: var(--error);
+  border-bottom-width: 2px;
+}
+
+.dcl.field.field .ui.input input:focus, .dcl.field .ui.input input:active, .ui.form .dcl.field .ui.input input:focus, .ui.form .dcl.field .ui.input input:active {
+  border-color: var(--text);
+}
+
+::placeholder {
+  color: #CACACA;
+  opacity: 1;
+}
+
+.dcl.select-field .divider.default.text {
+  color: #CACACA !important;
+  opacity: 1 !important;
+}
+
+:root {
+  --background-catalyst: #4888EE;
+  --background-poi: #44B600;
+  --background-ban-name: #FF5AFE;
+  --background-grant: #3C24B3;
+  --background-poll: #FF7439;
+  --background-remove-poi: #FF247C;
+  --background-happy-green: #44B600;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .tabletOnly.tabletOnly.tabletOnly { visibility: hidden; }
+  .mobileOnly.mobileOnly.mobileOnly { visibility: hidden; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .screenOnly.screenOnly.screenOnly { visibility: hidden; }
+  .mobileOnly.mobileOnly.mobileOnly { visibility: hidden; }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .screenOnly.screenOnly.screenOnly { visibility: hidden; }
+  .tabletOnly.tabletOnly.tabletOnly { visibility: hidden; }
+}
